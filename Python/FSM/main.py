@@ -90,7 +90,7 @@ class LexicalAnalizer:
                     result += [["Quote Token: ","%s" % token[i]]]        
                 else:
                     data += token[i]
-                    
+                  
                     
                         
 
@@ -101,6 +101,6 @@ class LexicalAnalizer:
             
 
 parser = LexicalAnalizer().read().getTokens().lexicalAnalysis()
-#print(tabulate(parser))
-print(parser)        
+print(tabulate(parser))
+#print(parser)        
 

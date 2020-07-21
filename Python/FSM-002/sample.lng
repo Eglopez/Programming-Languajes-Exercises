@@ -1,0 +1,11 @@
+a = "Prueba de un Atomata Finito"
+b = "-----------------------------------------"
+if a > 0:
+
+    print("Solo lee las cadenas")
+
+else:
+
+    print("Que esten entre comillas dobles")
+
+c = "-----------------------------------------"
