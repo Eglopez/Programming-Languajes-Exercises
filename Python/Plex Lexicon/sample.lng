@@ -1,0 +1,7 @@
+{
+    ESto es una cadena
+}
+
+"Esto es una cadena" = "1" + "2"
+
+"ESto es otra 'cadena'" 'Cadena'
