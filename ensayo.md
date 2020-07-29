@@ -16,8 +16,11 @@ Se hablará sobre:
 * Análisis Léxico
 * Análisis Sintáctico
 * Autómatas Finitos
-* Expreiones Regulares 
+* Expresiones Regulares 
 
-<hr>
+===
 
-## Lenguajes de Programación
+# Lenguajes de Programación
+
+## Que es un lenguaje de programación?
+
