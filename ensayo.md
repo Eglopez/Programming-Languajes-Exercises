@@ -39,7 +39,7 @@ Los lenguajes de maquina son aquellos los cuales son interpretados directamente 
 
 Los lenguajes de ensamblaje son aquellos que usan código mnemónicos cortos para sus instrucciones. los lenguajes ensambladores son traducidos fácilmente a lenguaje maquina. Estos lenguajes permiten crear nombres para bloques que contienen datos.
 
-### Lenguajes Algoritmicos
+### Lenguajes Algorítmicos
 
 Los lenguajes algorítmicos son aquellos que están diseñados para expresar cálculos matemáticos o simbólicos. Estos pueden expresar varias expresiones matemáticas las cuales permite a los matemáticos a usar tales subprogramas para sus investigaciones. Este tipo fueron los primeros lenguajes de alto nivel.
 
@@ -79,13 +79,13 @@ var suma = result + 50; -> linea que es analizada
 
 **Token** -------------------- **Lexema**
 
-Palabra reservada---- var 
-identificador----------- suma 
-asignación--------------- = 
-identificador----------- result 
-operador------------------- + 
-entero---------------------- 50 
-punto y coma-------------- ; 
+Palabra reservada---- var   
+identificador----------- suma   
+asignación--------------- =   
+identificador----------- result    
+operador------------------- +   
+entero---------------------- 50   
+punto y coma-------------- ;   
 
 ## Analizador Sintáctico
 
