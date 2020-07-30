@@ -109,7 +109,20 @@ Un **diagrama de estados** es un tipo de diagramas utilizado en el area de infor
 
 Ventajas que tenemos al untilizar diagramas de estado pueden ser que el analista se pueda centrar a un mejor en lo que un usuario o problema necesita y que los diagrams de estados tienen exitos en los sistemas interactivos. Como desventaja de ellos podemos encontrar que la inclusión de estas relaciones sean mas dificiles de leer para los usuarios.
 
-Un ejemplo de diagrama de estados:
+Un ejemplo de diagrama de estados del procesos de ir a clases a la universidad:
+
+![Diagrama de estados](https://drive.google.com/uc?export=view&id=173dnAETozyAkbKyLO40nalS5rSdLqbTy)
+
+## Automatas finitos
+
+Un **Automata finito** puede ser representado como un **diagrama de estados** que tiene un conjunto de estados y va pasando de uno a otro dependiendo si la entrada es valida. los automatas finios deterministas son aquellos que solo pueden estar en un estada a la vez no como los automatas no deterministas que puede estar evaluando varios estados simultaneamente. Como su nombre lo indica los estados son finitos que tiene su estado de incio y estado final. Los **automatas finitos** son muy importantes en el **análizador léxico** ya que los automatas finitos leen caracter por caracter en cadenas y por cada caracter leido va haciendo transciones entre estados. La finalidad de los **automatas finitos** es la de reconocer lenguajes regulares. Es por ello que un **análizador léxico** puede estar compuesto por uno o mas **automatas finitos**. Tambien pueden ser representados en una tabla de transciones y no solo como un **diagrama de estados**.
+
+Ejemplo de un automata finito:
+
+![Automata finito](https://drive.google.com/uc?export=view&id=1tPyq340m5NmAjL1dvlfk7J2vNaEsjAf0)
+
+## Expresiones Regulares
+
 
 
 
