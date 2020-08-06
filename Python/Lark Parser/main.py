@@ -11,16 +11,16 @@
 import sys
 from reader import Reader
 from semantic import Semantic
-from lark import Lark,Trasnformer   
+from lark import Lark, Transformer   
 from grammar import *
 
 reader = (Reader()).read()
-parser = Lark(grammar,parser = "lalr",transformer = Semantic())
+parser = Lark(grammar,parser="lalr", transformer = Semantic())
 language = parser.parse
 
 sample = reader.text
 
 try:
     language(sample)
- except Exception as e:
+except Exception as e:
      print("Error: %s" % e)

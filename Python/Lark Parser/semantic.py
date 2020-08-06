@@ -3,7 +3,7 @@ from lark import Transformer, v_args
 
 @v_args(inline=True)
 
-class Semantic:
+class Semantic(Transformer):
 
     def __init__(self):
 
